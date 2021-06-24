@@ -1,3 +1,4 @@
+import React from "react"
 import Bar from "./comp/navbar";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
