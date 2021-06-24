@@ -5,7 +5,7 @@ import data from "./monedero.json"
 
 const Coins = () => {
   const url =
-    "https://api.coingecko.com/api/v3/simple/price?ids=Bitcoin%2CEthereum%2CDogecoin&vs_currencies=usd";
+    "https://api.coingecko.com/api/v3/simple/price?ids=Bitcoin%2CEthereum%2CDogecoin&vs_currencies=usd%2Cars";
   const [prices, setPrices] = useState();
   const fetchApi = async () => {
     const response = await fetch(url);
@@ -41,8 +41,10 @@ const Coins = () => {
                         />
                         <div className="text-center rounded-2 blur ">
                           <h4 className="p-3">
-                            Precio {price.bitcoin.usd}{" "}
+                            {price.bitcoin.usd}{" "}
                             <p className="text-success">USD</p>{" "}
+                            {price.bitcoin.ars}
+                            <p className="text-primary">ARS</p>
                           </h4>
                         </div>
                       </div>
@@ -56,8 +58,10 @@ const Coins = () => {
                         />
                         <div className="text-center rounded-2 blur">
                           <h4 className="p-3">
-                            Precio {price.ethereum.usd}{" "}
-                            <p className="text-success">USD</p>
+                            {price.ethereum.usd}{" "}
+                            <p className="text-success">USD</p>{" "}
+                            {price.ethereum.ars}
+                            <p className="text-primary">ARS</p>
                           </h4>
                         </div>
                       </div>
@@ -71,8 +75,10 @@ const Coins = () => {
                         />
                         <div className="text-center rounded-2 blur">
                           <h4 className="p-3">
-                            Precio {price.dogecoin.usd}{" "}
-                            <p className="text-success">USD</p>
+                          {price.dogecoin.usd}{" "}
+                            <p className="text-success">USD</p>{" "}
+                            {price.dogecoin.ars}
+                            <p className="text-primary">ARS</p>
                           </h4>
                         </div>
                       </div>
