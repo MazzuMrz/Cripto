@@ -1,0 +1,16 @@
+[{
+    "id" : 1,
+    "Moneda" : "Bitcoin",
+    "Cantidad" : 0.002
+},
+{
+    "id" : 2,
+    "Moneda" : "Ethereum",
+    "Cantidad" : 30.034
+},
+{
+    "id" : 3,
+    "Moneda" : "Dogecoin",
+    "Cantidad" : 420
+}
+]

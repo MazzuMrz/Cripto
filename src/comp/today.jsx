@@ -5,9 +5,9 @@ const Today = () => {
   return (
     <div>
       <div className="text-center noticias">
-        <h1 className="bg-warning ">Noticias</h1>
+        <h1 className="bg-dark text-warning ">Noticias</h1>
       </div>
-     
+
       <Container className=" ">
         <CardColumns>
           <Card>
@@ -21,15 +21,14 @@ const Today = () => {
                 quienes no emitan una CBDC
               </Card.Title>
               <Card.Text>
-                osé Luis era un chico de 11 años. Fue torturado, le cortaron la
-                cabeza y tiraron su cuerpo en un baldío. Todo por jugar con sus
-                amigos en una zona de conflicto entre las bandas conocidas como
-                “La 18” y “MS-13”. Así lo informó el diario “The Guardian” en un
-                artículo escalofriante de noviembre de 2019.
+                Tengo tiempo para saber Si lo que sueño concluye en algo No te
+                apures ya más loco Porque es entonces cuando las horas Bajan El
+                día es vidrio sin sol Bajan La noche te oculta la voz Y además
+                vos querés sol Despacio también podés hallar la luna
               </Card.Text>
             </Card.Body>
           </Card>
-          
+
           <Card>
             <Card.Img
               variant="top"
@@ -54,8 +53,10 @@ const Today = () => {
             <blockquote className="blockquote mb-0 card-body">
               <p>
                 El BCRA y la @CNVArgentina consideran oportuno alertar sobre los
-                riesgos e implicancias de los criptoactivos... <a  href="https://twitter.com/BancoCentral_AR/status/1395426680190218242?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1395426680190218242%7Ctwgr%5E%7Ctwcon%5Es1_c10&ref_url=https%3A%2F%2Fwww.telam.com.ar%2Fnotas%2F202105%2F555256-mercado-cripto-derrumbe-dos-semanas.html"
-                  >Ver mas</a> 
+                riesgos e implicancias de los criptoactivos...{" "}
+                <a href="https://twitter.com/BancoCentral_AR/status/1395426680190218242?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1395426680190218242%7Ctwgr%5E%7Ctwcon%5Es1_c10&ref_url=https%3A%2F%2Fwww.telam.com.ar%2Fnotas%2F202105%2F555256-mercado-cripto-derrumbe-dos-semanas.html">
+                  Ver mas
+                </a>
               </p>
               <footer className="blockquote-footer">
                 <small className="text-muted">
@@ -65,10 +66,8 @@ const Today = () => {
                   >
                     BCRA via Twitter
                   </a>
-                  
                 </small>
               </footer>
-              
             </blockquote>
           </Card>
           <Card className="text-center">
@@ -89,7 +88,6 @@ const Today = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-         
         </CardColumns>
       </Container>
     </div>
